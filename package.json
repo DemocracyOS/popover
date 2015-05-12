@@ -11,7 +11,7 @@
     "url": "https://github.com/component/popover.git"
   },
   "dependencies": {
-    "tip-component": "*",
+    "tip-component": "git://github.com/slifszyc/tip",
     "component-query": "*",
     "component-inherit": "0.0.3",
     "stringify": "^3.1.0"
