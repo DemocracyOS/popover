@@ -1,17 +1,17 @@
 {
-  "name": "popover-component",
+  "name": "democracyos-popover",
   "description": "Popover component",
   "version": "1.1.0",
   "keywords": ["popover", "component"],
   "bugs": {
-    "url": "https://github.com/component/popover.git/issues"
+    "url": "https://github.com/DemocracyOS/popover.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/component/popover.git"
+    "url": "https://github.com/DemocracyOS/popover.git"
   },
   "dependencies": {
-    "component-tip": "git://github.com/slifszyc/tip",
+    "democracyos-tip": "^2.4.1",
     "component-query": "*",
     "component-inherit": "0.0.3",
     "stringify": "^3.1.0"
@@ -22,7 +22,7 @@
     ]
   },
   "browser": {
-    "tip": "component-tip",
+    "tip": "democracyos-tip",
     "query": "component-query",
     "inherit": "component-inherit"
   },
